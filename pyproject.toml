@@ -1,0 +1,14 @@
+[project]
+name = "fifo-directory-queue-utils"
+version = "0.1.0"
+description = "Crash-safe FIFO filesystem queue that moves files between directories for enqueue and dequeue operations"
+requires-python = ">=3.10"
+dependencies = []
+readme = "README.md"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
